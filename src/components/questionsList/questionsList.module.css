@@ -1,0 +1,65 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  color: rgb(6, 6, 6);
+  gap: 10px;
+  margin: auto;
+  width: 80%;
+}
+.filtering {
+  margin: 10px 0;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+
+.filterAnswered {
+  color: rgb(6, 6, 6);
+  background-color: rgb(161, 160, 160);
+  width: 75px;
+  height: 30px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-right: 2px;
+  border-radius: 10px;
+  font-weight: 400;
+}
+.filterAnswered:hover {
+  background-color: rgb(200, 199, 199);
+}
+.filterUnanswered {
+  color: rgb(6, 6, 6);
+  background-color: rgb(161, 160, 160);
+  padding: 7px 0px;
+  width: 80px;
+  height: 30px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-right: 2px;
+  border-radius: 10px;
+  font-weight: 400;
+}
+.filterUnanswered:hover {
+  background-color: rgb(200, 199, 199);
+}
+.resetFilter {
+  color: rgb(6, 6, 6);
+  background-color: rgb(161, 160, 160);
+  width: 75px;
+  height: 30px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 10px;
+  font-weight: 400;
+}
+.resetFilter:hover {
+  background-color: rgb(200, 199, 199);
+}
+@media only screen and (max-width: 800px) {
+  .filtering {
+    justify-content: center;
+  }
+}
